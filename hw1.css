@@ -1,0 +1,952 @@
+#topnav {
+    background-color: #03234b;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#topnav_sx {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+#topnav_dx {
+    display: flex;
+    align-items: center;
+}
+
+
+#topnav_dx img {
+    margin-right: 30px;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+
+nav {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#menu span, #menu a {
+    margin: 0px 10px;
+    line-height: 15px;
+}
+
+.barra {
+    background-color: white;
+    margin-left: 30px;
+    width: 60%;
+    height: 20px;
+    padding: 10px;
+}
+
+#menu {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#navleft {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin: 0px 2px;
+}
+
+#prodotti {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 5px;
+}
+
+#topnav img {
+    height: 70px;
+    width:  50px;
+    margin-left: 20px;
+}
+
+.advertising {
+    background-color: yellow;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    font-size: 15px;
+    width: 100vw;
+}
+
+header {
+    margin-top: 80px;
+    width: 100vw;
+    height: 60vh;
+    background-color: #03234b;
+    background-image: url(https://estore.st.com/media/wysiwyg/stmicro/homepage/banner/new-banner/steval-mki109d-estore-banner-image-ProfiMEMS__2__1_.jpg);
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.immagine2 {
+    background-image: url(https://estore.st.com/media/wysiwyg/stmicro/homepage/banner/new-banner/smart-home-dcp3601-estore.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+#minore {
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    bottom: 50%;
+}
+
+#maggiore {
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    bottom: 50%;
+}
+
+#maggiore h1, #minore h1 {
+    height: 70px;  
+}
+
+#chip {
+    width: 100vw;
+}
+
+#blue{
+    width: 40%;
+    background-color: #03234b;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hidden {
+    display: none;
+}
+
+#blue h1, #blue h4, article h4 {
+    color: white;
+    margin-left: 30px;
+}
+
+.ordina {
+    background-color: yellow;
+    margin-left: 20px;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+#titolo_section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px;
+    margin-top: 10px;
+}
+
+.prodotti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#titolo_section h4 {
+    border-bottom: 5px solid #03234b;
+}
+
+#titolo_compra, #vantaggi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20%;
+    margin: 0px 100px;
+    color: white;
+}
+
+#titolo_compra h1 {
+    font-size: 2em;
+}
+
+#vantaggi img {
+    width: 60px;
+    height: 60px;
+}
+
+#vantaggi div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#join {
+    background-color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#join div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 70%;
+    background-color: yellow;
+    width: 90%;
+    background-image:url(https://estore.st.com/media/wysiwyg/Home_page_banner_1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#join h1, #join h4 {
+    margin-left: 20px;
+}
+
+#join a {
+    margin-left: 20px;
+    background-color: #03234b;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+#applications {
+    background-color: #03234b;
+    height: 85vh;
+}
+
+article.eStore {
+    background-color: #03234b;
+    height: auto;
+    padding: 40px 0px;
+}
+
+#titolo_article {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 100px;
+    color: white;
+    height: 20%;
+}
+
+.type_article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px;
+    margin-bottom: 30px;
+    height: 80%;
+}
+
+.type_article div {
+    height: 100%;
+    width: 20%; 
+    margin-bottom: 10px;
+}
+
+#automotive {
+    background-image: url("https://estore.st.com/media/stmicro/tile_widget/Optimized-ST16777_GettyImages-863753248-min.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#automotive h3, #industrial h3, #personal_electronics h3, #equipments h3 {
+    position: absolute;
+    bottom: 2px;
+    left: 5px;
+}
+
+#industrial {
+    background-image: url("https://estore.st.com/media/stmicro/tile_widget/Optimized-industrial.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#personal_electronics {
+    background-image: url("https://estore.st.com/media/stmicro/tile_widget/Optimized-ST16826_GettyImages-614509568-min.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+#equipments {
+    background-image: url("https://estore.st.com/media/stmicro/tile_widget/Optimized-ST10438_shutterstock_538320733.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+footer {
+    background-color: white;
+    height: 60vh;
+
+}
+
+.advertising a.button:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer img {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 10%;
+    width: 10%;
+}
+
+#footer_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+a.button:hover, .products:hover {
+    background-color: yellow;
+    border-top-left-radius: 20px;
+    padding: 3px 5px;
+}
+
+a, h5:hover {
+    cursor: pointer;
+}
+
+#footer_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid gray;
+    margin: 0px 70px;
+}
+
+#footer_bottom a:hover,#footer_container h5:hover{
+    text-decoration: underline;
+    color:#03234b;
+}
+
+#footer_container .barra{
+    background-color: rgba(227, 223, 223, 0.3);
+    color: gray;
+    padding: 15px;
+    margin: 0px;
+}
+
+#invia {
+    padding: 15px;
+    background-color: yellow;
+}
+
+#Newsletter_follow {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.icona div {
+  width: 25px;
+  height: 3px;
+  background-color: #03234b;
+  margin: 2px 4px;
+}
+
+.icona {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.products .button {
+    display: flex ;
+    align-items: center;
+}
+
+.immagini {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.immagini img {
+    width: 300px;
+    height: 300px;
+}
+
+.immagini h1:hover,
+.immagini img:hover,
+.ordina,
+#titolo_section h1:hover,
+#titolo_section h4:hover{
+    cursor: pointer;
+}
+
+h4,p,h5 {
+    font-weight: normal;
+}
+
+#footer_container h4 {
+    font-weight: bold;
+}
+
+.prodotti h4 {
+    font-size: 0.75rem;
+}
+
+em {
+    font-style: normal;
+    color: blue;
+}
+
+#hamburger {
+    display: none;
+}
+
+#hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+    display: none;
+}
+
+#menu .barra {
+    display: none;
+}
+
+.flex_tendina {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    background-color: white;
+    width: 200px;
+    font-size: 15px;
+    flex-direction: column;
+    border: 5px solid yellow;
+}
+
+#menu a.button {
+    position: relative;
+    /*padding: 7px;*/
+}
+
+#menu a.button:hover .flex_tendina {
+    display: flex;
+}
+
+.flex_tendina h4 {
+    margin-left: 5px;
+}
+
+#footer_bottom {
+    letter-spacing: 3px;
+}
+
+#email {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+.carrello {
+    width: 30vh;
+    height: 100%;
+    background-color: azure;
+    position: absolute;
+    right: 0px;
+    top: 51px;
+    padding: 50px;
+    font-size: 15px;
+}
+
+.carrello h1 {
+    font-weight: normal;
+    font-size: 70%;
+    text-align: center;
+}
+
+#window_view {
+    background-image: url(https://estore.st.com/media/wysiwyg/Home_page_banner_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#window_view.hidden {
+    display: none;
+}
+
+h2.testo_window  {
+    background-color: yellow;
+    color: black;
+}
+
+#window_view input {
+    padding: 10px;
+}
+
+.testo_window {
+    background-color: #03234b;
+    font-size: 30px;
+    color: white;
+    padding: 10px;
+}
+
+.pulsante_back {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #03234b;
+    color: white;
+    border-radius: 20px;
+}
+
+a.button[data-name = "Tools"]{
+    padding: 12px;
+}
+
+a.button[data-name = "Products"]{
+    padding: 7px;
+}
+
+a.button[data-name = "Applications"]{
+    padding: 12px;
+}
+
+.logout {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: yellow; 
+}
+
+a {
+text-decoration: none;
+color:#03234b;
+}
+
+.logout a {
+    text-decoration: none;
+}
+
+.addCart {
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.result{
+    color: green;
+    background-color: yellow;
+}
+
+
+@media (max-width: 500px){
+    header, section, article, footer, nav {
+        width: 100vw;
+    }
+
+   #modal_view {
+        width: 100vw;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #titolo_compra {
+        margin-left: 2px;
+    }
+
+    #titolo_section, .prodotti {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    .prodotti, .type_article {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .prodotti img {
+        width: 100%;
+    }
+
+    .type_article {
+        margin-left: 0px;
+    }
+
+    .type_article div {
+        margin: 0px 5px;
+        width: 40%;
+        height: 30%;
+        margin-bottom: 10px;
+        background-color: beige;
+    }
+
+    #titolo_article {
+        justify-content: space-between;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .immagini {
+        width: 50%;
+        height: 20%;
+    }
+
+    #footer_container, #footer_bottom {
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+     #vantaggi {
+        flex-direction: column;
+        margin: 0px 10px;
+     }
+
+    .barra {
+        display: none;
+    }
+
+
+    #topnav_sx {
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+
+     #topnav img {
+        margin-right: 0px;
+     }
+
+     #hamburger {
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 4px;
+        bottom: 10px;
+     }
+    
+    #hamburger div {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+        display: block;
+    }
+
+    #navleft, #navright {
+        display: none;
+    }
+
+    #menu .barra {
+        display: block;
+        width: 100%;
+    }
+
+    .advertising {
+        height: 55px;
+    }
+
+    header {
+        background-size: cover;
+        background-position: center;
+        margin-top: 100px;
+    }
+
+    #blue {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        background-color: transparent;
+    }
+
+    footer img {
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 100px;
+        width: 100px;
+    }
+
+    #menu input.barra {
+        width: 100vw;
+        margin: 0px;
+    }
+
+}
+
+
+
+@media (max-width: 800px){
+    .prodotti {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #modal_view {
+        width: 100vw;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+
+    .type_article {
+        justify-content: space-around;
+        margin: 0px 5px;
+    }
+
+    #automotive h3, #industrial h3, #personal_electronics h3, #equipments h3 {
+        font-size: 0.8rem;
+    }
+
+    header {
+        height: 70vh;
+    }
+
+    #blue h1 {
+        font-size: 1.5rem;
+        margin-top: 30px;
+    }
+
+    #Newsletter_follow .barra, #invia   {
+        display: inline;
+        font-size: 7px;
+    }
+    
+}
+ 
+
+
+@media (max-width: 400px){
+    #automotive h3, #industrial h3, #personal_electronics h3, #equipments h3 {
+        font-size: 0.8rem;
+    }
+
+    #modal_view {
+        width: 100vw;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #blue h1 {
+        font-size: 1.5rem;
+    }
+
+    #topnav{
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+     }
+
+     #topnav_sx img {
+        margin-right: 0px;
+     }
+
+}
+
+@media (max-width : 700px) {
+
+    #modal_view {
+        width: 100vw;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+    .type_article div {
+        margin: 0px 0px;
+    }
+}
+
+@media (max-width: 1050px){
+
+    #modal_view {
+        width: 100vw;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+    
+    .immagini img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .prodotti {
+        margin: 0px 20px;
+    }
+}
+
+@media (max-width: 450px){
+
+    #menu input.barra {
+        width: 100vw;
+    }
+
+    .prodotti {
+        flex-direction: column;
+        margin: 0px 0px;
+    }
+
+    #Newsletter_follow .barra, #invia   {
+        font-size: 15px;
+    }
+
+    #modal_view {
+        width: 100vw;
+        height: 100vh;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    #modal_view div {
+        display: block;
+    }
+}
+
+.notizie {
+   border-radius: 10px;
+   background-color:#03234b;
+   color: white;
+   margin-right: 10px;
+   max-height: 40px;
+}
+
+
+html,body {
+    height: 100vh;
+    width: 100vw;
+}
+
+#modal_view {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: rgba(1, 43, 65, 0.804);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center ;
+    z-index: 2;
+
+    overflow: auto;
+}
+
+#modal_view.hidden {
+    display:none;
+}
+
+#modal_view a {
+    display: block;
+    line-height: 20px;
+    color: yellow;
+}
+
+#modal_view div {
+    background-color:#03234b;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    width: 90vw;
+    margin-top: 30px;
+}
+
+#modal_view h1 {
+    color: yellow;
+}
+
+#modal_view img {
+    height: 100px;
+    width: 200px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.forma_notizie {
+    display: flex;
+    align-items: center;
+}
+
+.testo_avviso_modal {
+    color: white;
+    font-weight: bold;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+

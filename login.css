@@ -1,0 +1,154 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 15px;
+}
+
+h1 {
+    color: #03234b;
+}
+
+nav {
+    height: 10vh;
+}
+
+img {
+    height: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+section div {
+    align-items: center;
+}
+
+section {
+    height: 70vh;
+    display: flex;
+    border-bottom: 3px solid blue;
+    justify-content: center;
+
+}
+
+.button {
+    background-color: #03234b;
+    color:white;
+    margin-top: 10px;
+    font-size: 1.2em;
+    
+}
+
+label input {
+    display: block;
+    width: 200px;
+}
+
+footer {
+    height: 20vh;
+}
+
+.login {
+    margin: auto;
+    border-right: 2px solid gray;
+    margin-right: 0px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+.error {
+    color:red;
+}
+
+.nuovo_utente {
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 100px;
+
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: cyan;
+}
+
+footer {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4 {
+    margin-top: 0px;
+}
+
+@media (max-width : 400px) {
+    img {
+        height: 90%;
+        margin:auto;
+    }
+    section {
+        flex-direction: column;
+
+        align-items: center;
+        font-size: 0.75em;
+    }
+
+    .login {
+        margin: auto;
+        border-bottom: 2px solid gray;
+        border-right: none;
+        width: 250px;
+    }
+    .nuovo_utente {
+        margin: auto;
+    }
+
+    footer,section,nav {
+        width: 100vw;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 0.80em;
+    }
+
+    a {
+        text-align: center;
+        padding: 5px;
+        font-size: 0.75em;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    section {
+        flex-direction: column;
+
+        align-items: center;
+        font-size: 0.75em;
+    }
+
+    .login {
+        margin: auto;
+        border-bottom: 2px solid gray;
+        border-right: none;
+        width: 250px;
+    }
+    .nuovo_utente {
+        margin: auto;
+    }
+
+     a {
+        text-align: center;
+        padding: 5px;
+        font-size: 0.90em;
+    }
+
+
+}
+
+

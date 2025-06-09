@@ -1,0 +1,194 @@
+nav {
+    height: 10vh;
+    background-color: #03234b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_dx{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+nav img {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+nav input {
+    padding: 10px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+.homepage {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: yellow; 
+    
+}
+.result{
+    color: green;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+section {
+    height: 60vh;
+}
+
+footer {
+    height: 30vh;
+}
+
+h1 {
+    color:#03234b;
+}
+
+a {
+    text-decoration: none;
+    
+    color:#03234b;
+    font-size: 1.2em;
+}
+
+.avviso {
+     margin-left: 30px;
+}
+
+ .cart_vacancy {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.top_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+section {
+    margin-top: 20px;
+}
+
+.title {
+    border-bottom: 10px solid #03234b;
+    display: inline-block;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.blocco {
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-start;
+    margin: 40px auto;
+    width: 90vw;
+    border-bottom: 3px dotted #03234b;
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.titolo_descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 5px;
+    width: 80%;
+}
+
+.price_cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+
+.somma {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+@media (max-width: 450px){
+
+    .top_section {
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 0.8em;
+    }
+
+    .blocco {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 40px auto;
+    }
+    
+    nav {
+        height: 50px;
+        background-color: #03234b;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section {
+        margin: auto;
+    }
+
+    nav input {
+        display: none;
+    }
+
+
+    .titolo_descr {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .price_cart {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+}

@@ -1,0 +1,174 @@
+nav {
+    height: 10vh;
+    background-color: #03234b;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+.homepage {
+    border-radius: 20px;
+    padding: 10px;
+    background-color: yellow; 
+}
+
+a {
+    text-decoration: none;
+   
+}
+
+.result{
+    color: green;
+    background-color: yellow;
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+}
+
+.nav_dx{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+
+.nav_dx img {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+nav img {
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+nav input {
+    padding: 10px;
+    margin-left: 10px;
+    width: 500px;
+}
+
+body {
+    margin: 0px;
+}
+
+section {
+    height: 60vh;
+}
+
+footer {
+    height: 30vh;
+}
+
+h1 {
+    color:#03234b;
+}
+
+section{
+    margin-top: 20px;
+}
+
+.title {
+     margin-left: 70px;
+    border-bottom: 10px solid #03234b;
+    display: inline-block;
+}
+
+button {
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.blocco {
+    display: flex;
+    flex-direction: row ;
+    justify-content: flex-start;
+    width: 90vw;
+    border: 3px solid #03234b;
+    margin: 40px auto;
+
+}
+
+section img {
+    width: 200px;
+    height: 200px;
+}
+
+
+.titolo_descr{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 5px;
+    width: 80%;
+}
+
+.price_cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+}
+
+@media (max-width: 450px){
+
+    .blocco {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 40px auto;
+    }
+    
+    nav {
+        height: 50px;
+        background-color: #03234b;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    section {
+        margin: auto;
+    }
+
+    nav input {
+        display: none;
+    }
+
+    .title{
+        border-bottom: 10px solid #03234b;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .titolo_descr {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .price_cart {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav_dx img {
+        margin-right: 5px;
+    }
+
+}
